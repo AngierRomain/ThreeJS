@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+ <title>WebGL</title>
+ <meta charset="utf-8">
+ <!-- viewport determine la taille du navigateur, nécessaire pour le téléphone -->
+ <meta name="viewport" content="width=device-width, user-scalable=no,
+minimum-scale=1.0, maximum-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+<style type="text/css">
+
+/* créer classe plein ecran, pour que le canvas prenne toujours 100% */
+ .fullscreen {
+ position: absolute; top: 0; bottom: 0; left: 0; right: 0;
+ }
+</style>
+</head>
+<body>
+<div class="fullscreen" style="background-color: white; z-index:1000" id="loading">
+<div style="display: table; width: 100%; height: 100%;">
+<div style="display: table-cell; vertical-align: middle; text-align: center;">
+<div><i class="fas fa-snowflake fa-spin fa-3x"></i></div>
+</div></div>
+
+</div>
+<script type="module" src="script.js"></script>
+</body>
+</html>
